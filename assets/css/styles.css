@@ -1,11 +1,23 @@
 
 /* css */
-.small {
-  font-size: 15px;
-  display: inline-block;
-  margin-right: 20px;
-}
 
 .larger {
   font-size: 100px;
 }
+
+.container {
+  background-color:
+}
+
+ .header {
+   font-size: 140px;
+ }
+
+
+ body {font-family: 'Roboto', sans-serif;}
+ .kenna {background-color: #C3C5C7;}
+ .snot {color: #7FBA30;}
+ .cherry {color: #EF2419;}
+ .ghost {color: #DEE0D4;}
+ .offblack {color: #010005;}
+ .scoobydoo {color: #13BAC4;}
