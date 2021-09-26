@@ -1,5 +1,35 @@
 
 /* css */
+.rectangle1{
+  position: relative;
+height: 1000px;
+background: #7FBA30;
+}
+
+.rectangle2{
+  position: relative;
+height: 1000px;
+background: #EF2419;
+}
+
+.rectangle3{
+  position: relative;
+height: 1000px;
+background: #DEE0D4;
+}
+
+.rectangle4{
+  position: relative;
+height: 1000px;
+background: #010005;
+}
+
+.rectangle5{
+  position: relative;
+height: 1000px;
+background: #13BAC4;
+}
+
 
 .larger {
   font-size: 100px;
@@ -27,12 +57,3 @@
  .offblack {color: #010005;}
 
  .scoobydoo {color: #13BAC4;}
-
- .square-1 {
-   position: absolute;
-   width: 117px;
-  height: 674px;
-  left: 50px;
-  top: 226px;
-  color:#7FBA30;
- }
