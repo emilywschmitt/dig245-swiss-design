@@ -3,29 +3,34 @@
 .rectangle1{
   position: relative;
 height: 1000px;
+width: 250px;
 background: #7FBA30;
 }
 
 .rectangle2{
   position: relative;
+  width: 250px;
 height: 1000px;
 background: #EF2419;
 }
 
 .rectangle3{
   position: relative;
+  width: 250px;
 height: 1000px;
 background: #DEE0D4;
 }
 
 .rectangle4{
   position: relative;
+  width: 250px;
 height: 1000px;
 background: #010005;
 }
 
 .rectangle5{
   position: relative;
+  width: 250px;
 height: 1000px;
 background: #13BAC4;
 }
