@@ -1,3 +1,3 @@
 
 console.log('Reproduction: Emily Schmitt');
-console.log('Orginal Work: Swissted')
+console.log('Original Work: Swissted, Mike Joyce')
