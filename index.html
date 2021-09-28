@@ -12,19 +12,25 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 <!-- CSS -->
 <style>
+a {text-decoration: none;}
+a:hover {color: #010005;}
 body {font-family: 'Roboto', sans-serif;}
-.header {font-size: 21.5vw;line-height: 21.5vw;}
+.header {font-size: 19.5vw; line-height: 12.5vw; text-align: center; margin-top: 120px;}
  .kenna {background-color: #C3C5C7;}
  .snot {color: #7FBA30;}
  .cherry {color: #EF2419;}
  .ghost {color: #DEE0D4;}
  .offblack {color: #010005;}
- .scoobydoo {color: #13BAC4;}
+ .scoobydoo {color: #13BAC4;} disabled
+ rect {margin: 0px;}
 
  @media (max-width: 576px) {
-   .adjusting {font-size:3vw; }
+   .adjusting {font-size:3vw;}
  }
 
+ @media (max-width: 576px) {
+   .header {margin-top: 70px;}
+ }
 
 </style>
 </head>
@@ -32,26 +38,25 @@ body {font-family: 'Roboto', sans-serif;}
 
 <!-- trying out the portable design -->
 
-<div class="container-fluid kenna">
+<div class="container kenna">
 
   <div class="row">
-<div class = "col adjusting">all ages & over 21 with </br>everclear & skiploader</div>
-<div class = "col"></div>
-<div class = "col adjusting">saturday january 22 1994</div>
-<div class = "col adjusting offset-1">mission mill portland, oregon</div>
+<div class = "col-12 col-md-6 adjusting">all ages & over 21 with <br class="d-none d-md-block">everclear & skiploader</div>
+<div class = "col-12 col-md-3 adjusting">saturday <br class="d-none d-md-block">january 22 1994</div>
+<div class = "col-12 col-md-3 adjusting">mission mill <br class="d-none d-md-block">portland, oregon</div>
     </div>
 
   <div class="row">
-  <div class="col offblack header"><a href="https://cdn.shopify.com/s/files/1/0140/7312/products/heatmiser.jpeg?v=1329179909" style="text-decoration:none" class="offblack">heatmiser</a></div>
+  <div class="col-12 offblack header"><a href="https://cdn.shopify.com/s/files/1/0140/7312/products/heatmiser.jpeg?v=1329179909" class="offblack">heatmiser</a></div>
   </div>
 
 <div class="row">
   <svg width="838" height="996" viewBox="0 0 838 996" fill="none" xmlns="http://www.w3.org/2000/svg" class="img-fluid">
-<rect y="22" width="170" height="974" fill="#7FBA30"/>
-<rect x="671" y="22" width="167" height="974" fill="#13BAC4"/>
-<rect x="504" y="22" width="167" height="974" fill="#010005"/>
-<rect x="337" y="22" width="167" height="974" fill="#DEE0D4"/>
-<rect x="170" y="22" width="167" height="974" fill="#EF2419"/>
+<rect y="22" width="180" height="974" fill="#7FBA30"/>
+<rect x="671" y="22" width="177" height="974" fill="#13BAC4"/>
+<rect x="504" y="22" width="177" height="974" fill="#010005"/>
+<rect x="337" y="22" width="177" height="974" fill="#DEE0D4"/>
+<rect x="170" y="22" width="177" height="974" fill="#EF2419"/>
 </svg>
 </div>
 
@@ -61,7 +66,7 @@ body {font-family: 'Roboto', sans-serif;}
 <!-- javascript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-<script rel="stylesheet" type="text/javascript" src="assets/js/main.js"></script>
+<script rel="stylesheet" src="assets/js/main.js"></script>
 
 </body>
 </html>
